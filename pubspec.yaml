@@ -1,0 +1,44 @@
+name: proyecto_finanzas
+description: Proyecto Final - Gestor de Finanzas Personales
+publish_to: 'none'
+environment:
+  sdk: '>=3.0.0 <4.0.0' 
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Gestión de estado y persistencia
+  shared_preferences: ^2.2.2
+  flutter_riverpod: ^2.4.9
+  
+  # Gráficos e internacionalización
+  fl_chart: ^0.67.0 
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.20.2 
+  
+  # Base de Datos Local (Isar)
+  isar: ^3.1.0+1
+  isar_flutter_libs: ^3.1.0+1
+  
+  # Utilidades
+  path_provider: ^2.1.2 
+  uuid: ^4.3.1 
+  
+  # EXPORTACIÓN DE DATOS
+  csv: ^5.1.1 
+  file_saver: ^0.2.14 
+  
+  # REACTIVIDAD AVANZADA
+  rxdart: ^0.27.7 
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+    
+  # Generación de código
+  build_runner: ^2.4.13
+  isar_generator: ^3.1.0+1
+    
+flutter:
+  uses-material-design: true
